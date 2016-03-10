@@ -16,6 +16,8 @@
 		043285BA1C91B72900912D17 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285B91C91B72900912D17 /* UIView+Frame.m */; };
 		043285C11C91B7AD00912D17 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C01C91B7AD00912D17 /* UIColor+Extension.m */; };
 		043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C51C91BE5500912D17 /* NSString+Extension.m */; };
+		043285CA1C91C56300912D17 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C91C91C56300912D17 /* FSNavigationController.m */; };
+		043285CD1C91C6C800912D17 /* NINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285CC1C91C6C800912D17 /* NINavigationController.m */; };
 		0491C7EB1C7DD9CB0034363D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C7EA1C7DD9CB0034363D /* main.m */; };
 		0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F51C7DD9CB0034363D /* Images.xcassets */; };
 		0491C7F91C7DD9CB0034363D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F71C7DD9CB0034363D /* LaunchScreen.xib */; };
@@ -58,6 +60,10 @@
 		043285C31C91B8C400912D17 /* FSKit_Private.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKit_Private.pch; sourceTree = "<group>"; };
 		043285C41C91BE5500912D17 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		043285C51C91BE5500912D17 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		043285C81C91C56300912D17 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
+		043285C91C91C56300912D17 /* FSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
+		043285CB1C91C6C800912D17 /* NINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NINavigationController.h; sourceTree = "<group>"; };
+		043285CC1C91C6C800912D17 /* NINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NINavigationController.m; sourceTree = "<group>"; };
 		0491C7E51C7DD9CB0034363D /* FSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491C7E91C7DD9CB0034363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0491C7EA1C7DD9CB0034363D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +147,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		043285C71C91C53F00912D17 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				043285C81C91C56300912D17 /* FSNavigationController.h */,
+				043285C91C91C56300912D17 /* FSNavigationController.m */,
+				043285CB1C91C6C800912D17 /* NINavigationController.h */,
+				043285CC1C91C6C800912D17 /* NINavigationController.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		0491C7DC1C7DD9CB0034363D = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +216,7 @@
 		0491C80E1C7DDA6F0034363D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				043285C71C91C53F00912D17 /* Foundation */,
 				043285C21C91B88700912D17 /* Tools */,
 				0491C80F1C7DDA6F0034363D /* Categary */,
 				0491C8101C7DDA6F0034363D /* Main */,
@@ -352,9 +370,11 @@
 				0419DD9A1C7DE07300F0D8C0 /* NCLineButton.m in Sources */,
 				0491C8161C7DDA6F0034363D /* ViewController.m in Sources */,
 				043285C11C91B7AD00912D17 /* UIColor+Extension.m in Sources */,
+				043285CD1C91C6C800912D17 /* NINavigationController.m in Sources */,
 				0419DDA21C7DE18A00F0D8C0 /* NSString+Path.m in Sources */,
 				0419DD9C1C7DE07300F0D8C0 /* UIAlertView+Additional.m in Sources */,
 				0491C7EB1C7DD9CB0034363D /* main.m in Sources */,
+				043285CA1C91C56300912D17 /* FSNavigationController.m in Sources */,
 				043285BA1C91B72900912D17 /* UIView+Frame.m in Sources */,
 				0419DD9E1C7DE07300F0D8C0 /* UIButton+Image.m in Sources */,
 				0491C81D1C7DDAD10034363D /* UITextView+Placeholder.m in Sources */,
