@@ -17,7 +17,6 @@
 		043285C11C91B7AD00912D17 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C01C91B7AD00912D17 /* UIColor+Extension.m */; };
 		043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C51C91BE5500912D17 /* NSString+Extension.m */; };
 		0491C7EB1C7DD9CB0034363D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C7EA1C7DD9CB0034363D /* main.m */; };
-		0491C7F41C7DD9CB0034363D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F21C7DD9CB0034363D /* Main.storyboard */; };
 		0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F51C7DD9CB0034363D /* Images.xcassets */; };
 		0491C7F91C7DD9CB0034363D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F71C7DD9CB0034363D /* LaunchScreen.xib */; };
 		0491C8051C7DD9CB0034363D /* FSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C8041C7DD9CB0034363D /* FSKitTests.m */; };
@@ -62,7 +61,6 @@
 		0491C7E51C7DD9CB0034363D /* FSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491C7E91C7DD9CB0034363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0491C7EA1C7DD9CB0034363D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0491C7F31C7DD9CB0034363D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0491C7F51C7DD9CB0034363D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0491C7F81C7DD9CB0034363D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0491C7FE1C7DD9CB0034363D /* FSKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				0491C80E1C7DDA6F0034363D /* Classes */,
-				0491C7F21C7DD9CB0034363D /* Main.storyboard */,
 				0491C7F51C7DD9CB0034363D /* Images.xcassets */,
 				0491C7F71C7DD9CB0034363D /* LaunchScreen.xib */,
 				0491C7E81C7DD9CB0034363D /* Supporting Files */,
@@ -332,7 +329,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0491C7F41C7DD9CB0034363D /* Main.storyboard in Resources */,
 				0491C7F91C7DD9CB0034363D /* LaunchScreen.xib in Resources */,
 				0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */,
 			);
@@ -390,14 +386,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0491C7F21C7DD9CB0034363D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0491C7F31C7DD9CB0034363D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0491C7F71C7DD9CB0034363D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +486,7 @@
 				INFOPLIST_FILE = FSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -508,6 +497,7 @@
 				INFOPLIST_FILE = FSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
