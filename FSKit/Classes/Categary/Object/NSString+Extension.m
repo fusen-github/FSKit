@@ -15,4 +15,20 @@
                                [NSCharacterSet whitespaceAndNewlineCharacterSet]];
     return trimmedString;
 }
+
+
+- (NSString *)timeStampToFormateTimeWithDataFormatStr:(NSString *)formatStr
+{
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:self.doubleValue / 1000.0];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    
+    [dateFormat setDateFormat:formatStr];
+    
+    return [dateFormat stringFromDate:date];
+}
+
+
+
+
 @end

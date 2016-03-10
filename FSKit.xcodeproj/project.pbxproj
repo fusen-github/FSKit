@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		0419DD991C7DE07300F0D8C0 /* AKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD8C1C7DE07300F0D8C0 /* AKProgressView.m */; };
 		0419DD9A1C7DE07300F0D8C0 /* NCLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD8E1C7DE07300F0D8C0 /* NCLineButton.m */; };
-		0419DD9B1C7DE07300F0D8C0 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD901C7DE07300F0D8C0 /* NSString+Extension.m */; };
 		0419DD9C1C7DE07300F0D8C0 /* UIAlertView+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD921C7DE07300F0D8C0 /* UIAlertView+Additional.m */; };
 		0419DD9D1C7DE07300F0D8C0 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD941C7DE07300F0D8C0 /* UIButton+Extension.m */; };
 		0419DD9E1C7DE07300F0D8C0 /* UIButton+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DD961C7DE07300F0D8C0 /* UIButton+Image.m */; };
 		0419DDA21C7DE18A00F0D8C0 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419DDA11C7DE18A00F0D8C0 /* NSString+Path.m */; };
+		043285BA1C91B72900912D17 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285B91C91B72900912D17 /* UIView+Frame.m */; };
+		043285C11C91B7AD00912D17 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C01C91B7AD00912D17 /* UIColor+Extension.m */; };
+		043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285C51C91BE5500912D17 /* NSString+Extension.m */; };
 		0491C7EB1C7DD9CB0034363D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C7EA1C7DD9CB0034363D /* main.m */; };
 		0491C7F41C7DD9CB0034363D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F21C7DD9CB0034363D /* Main.storyboard */; };
 		0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F51C7DD9CB0034363D /* Images.xcassets */; };
@@ -21,7 +23,6 @@
 		0491C8051C7DD9CB0034363D /* FSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C8041C7DD9CB0034363D /* FSKitTests.m */; };
 		0491C8161C7DDA6F0034363D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C8121C7DDA6F0034363D /* ViewController.m */; };
 		0491C8171C7DDA6F0034363D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C8151C7DDA6F0034363D /* AppDelegate.m */; };
-		0491C81A1C7DDABB0034363D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C8191C7DDABB0034363D /* UIView+Frame.m */; };
 		0491C81D1C7DDAD10034363D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C81C1C7DDAD10034363D /* UITextView+Placeholder.m */; };
 		0491C82F1C7DDB8E0034363D /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82A1C7DDB8E0034363D /* NSArray+Log.m */; };
 		0491C8301C7DDB8E0034363D /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82C1C7DDB8E0034363D /* NSDictionary+Log.m */; };
@@ -43,16 +44,21 @@
 		0419DD8C1C7DE07300F0D8C0 /* AKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKProgressView.m; sourceTree = "<group>"; };
 		0419DD8D1C7DE07300F0D8C0 /* NCLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLineButton.h; sourceTree = "<group>"; };
 		0419DD8E1C7DE07300F0D8C0 /* NCLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLineButton.m; sourceTree = "<group>"; };
-		0419DD8F1C7DE07300F0D8C0 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
-		0419DD901C7DE07300F0D8C0 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		0419DD911C7DE07300F0D8C0 /* UIAlertView+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Additional.h"; sourceTree = "<group>"; };
 		0419DD921C7DE07300F0D8C0 /* UIAlertView+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Additional.m"; sourceTree = "<group>"; };
 		0419DD931C7DE07300F0D8C0 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		0419DD941C7DE07300F0D8C0 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		0419DD951C7DE07300F0D8C0 /* UIButton+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Image.h"; sourceTree = "<group>"; };
 		0419DD961C7DE07300F0D8C0 /* UIButton+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Image.m"; sourceTree = "<group>"; };
-		0419DDA01C7DE18A00F0D8C0 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
-		0419DDA11C7DE18A00F0D8C0 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		0419DDA01C7DE18A00F0D8C0 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Path.h"; path = "../NSString+Path.h"; sourceTree = "<group>"; };
+		0419DDA11C7DE18A00F0D8C0 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Path.m"; path = "../NSString+Path.m"; sourceTree = "<group>"; };
+		043285B81C91B72900912D17 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		043285B91C91B72900912D17 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		043285BF1C91B7AD00912D17 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		043285C01C91B7AD00912D17 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		043285C31C91B8C400912D17 /* FSKit_Private.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKit_Private.pch; sourceTree = "<group>"; };
+		043285C41C91BE5500912D17 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		043285C51C91BE5500912D17 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		0491C7E51C7DD9CB0034363D /* FSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491C7E91C7DD9CB0034363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0491C7EA1C7DD9CB0034363D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,10 +72,8 @@
 		0491C8121C7DDA6F0034363D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0491C8141C7DDA6F0034363D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0491C8151C7DDA6F0034363D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0491C8181C7DDABB0034363D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		0491C8191C7DDABB0034363D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		0491C81B1C7DDAD10034363D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		0491C81C1C7DDAD10034363D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		0491C81B1C7DDAD10034363D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "../UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		0491C81C1C7DDAD10034363D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "../UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		0491C8291C7DDB8E0034363D /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		0491C82A1C7DDB8E0034363D /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		0491C82B1C7DDB8E0034363D /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
@@ -104,16 +108,39 @@
 				0419DD8C1C7DE07300F0D8C0 /* AKProgressView.m */,
 				0419DD8D1C7DE07300F0D8C0 /* NCLineButton.h */,
 				0419DD8E1C7DE07300F0D8C0 /* NCLineButton.m */,
-				0419DD8F1C7DE07300F0D8C0 /* NSString+Extension.h */,
-				0419DD901C7DE07300F0D8C0 /* NSString+Extension.m */,
 				0419DD911C7DE07300F0D8C0 /* UIAlertView+Additional.h */,
 				0419DD921C7DE07300F0D8C0 /* UIAlertView+Additional.m */,
 				0419DD931C7DE07300F0D8C0 /* UIButton+Extension.h */,
 				0419DD941C7DE07300F0D8C0 /* UIButton+Extension.m */,
 				0419DD951C7DE07300F0D8C0 /* UIButton+Image.h */,
 				0419DD961C7DE07300F0D8C0 /* UIButton+Image.m */,
+				043285B81C91B72900912D17 /* UIView+Frame.h */,
+				043285B91C91B72900912D17 /* UIView+Frame.m */,
+				0491C81B1C7DDAD10034363D /* UITextView+Placeholder.h */,
+				0491C81C1C7DDAD10034363D /* UITextView+Placeholder.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		043285BB1C91B76000912D17 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				043285BF1C91B7AD00912D17 /* UIColor+Extension.h */,
+				043285C01C91B7AD00912D17 /* UIColor+Extension.m */,
+				0419DDA01C7DE18A00F0D8C0 /* NSString+Path.h */,
+				0419DDA11C7DE18A00F0D8C0 /* NSString+Path.m */,
+				043285C41C91BE5500912D17 /* NSString+Extension.h */,
+				043285C51C91BE5500912D17 /* NSString+Extension.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		043285C21C91B88700912D17 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				043285C31C91B8C400912D17 /* FSKit_Private.pch */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		0491C7DC1C7DD9CB0034363D = {
@@ -175,6 +202,7 @@
 		0491C80E1C7DDA6F0034363D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				043285C21C91B88700912D17 /* Tools */,
 				0491C80F1C7DDA6F0034363D /* Categary */,
 				0491C8101C7DDA6F0034363D /* Main */,
 				0491C8131C7DDA6F0034363D /* Other */,
@@ -185,14 +213,9 @@
 		0491C80F1C7DDA6F0034363D /* Categary */ = {
 			isa = PBXGroup;
 			children = (
+				043285BB1C91B76000912D17 /* Object */,
 				0419DD8A1C7DE07300F0D8C0 /* UIKit */,
 				0491C8281C7DDB8E0034363D /* ChineseLogJSON */,
-				0491C8181C7DDABB0034363D /* UIView+Frame.h */,
-				0491C8191C7DDABB0034363D /* UIView+Frame.m */,
-				0491C81B1C7DDAD10034363D /* UITextView+Placeholder.h */,
-				0491C81C1C7DDAD10034363D /* UITextView+Placeholder.m */,
-				0419DDA01C7DE18A00F0D8C0 /* NSString+Path.h */,
-				0419DDA11C7DE18A00F0D8C0 /* NSString+Path.m */,
 			);
 			path = Categary;
 			sourceTree = "<group>";
@@ -330,16 +353,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0419DD991C7DE07300F0D8C0 /* AKProgressView.m in Sources */,
-				0491C81A1C7DDABB0034363D /* UIView+Frame.m in Sources */,
 				0419DD9A1C7DE07300F0D8C0 /* NCLineButton.m in Sources */,
 				0491C8161C7DDA6F0034363D /* ViewController.m in Sources */,
+				043285C11C91B7AD00912D17 /* UIColor+Extension.m in Sources */,
 				0419DDA21C7DE18A00F0D8C0 /* NSString+Path.m in Sources */,
 				0419DD9C1C7DE07300F0D8C0 /* UIAlertView+Additional.m in Sources */,
 				0491C7EB1C7DD9CB0034363D /* main.m in Sources */,
-				0419DD9B1C7DE07300F0D8C0 /* NSString+Extension.m in Sources */,
+				043285BA1C91B72900912D17 /* UIView+Frame.m in Sources */,
 				0419DD9E1C7DE07300F0D8C0 /* UIButton+Image.m in Sources */,
 				0491C81D1C7DDAD10034363D /* UITextView+Placeholder.m in Sources */,
 				0491C82F1C7DDB8E0034363D /* NSArray+Log.m in Sources */,
+				043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */,
 				0491C8171C7DDA6F0034363D /* AppDelegate.m in Sources */,
 				0491C8301C7DDB8E0034363D /* NSDictionary+Log.m in Sources */,
 				0419DD9D1C7DE07300F0D8C0 /* UIButton+Extension.m in Sources */,

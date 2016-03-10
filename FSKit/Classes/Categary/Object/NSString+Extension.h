@@ -12,4 +12,11 @@
 
 - (NSString *)trim;
 
+/*
+    @use: 将时间戳转化成固定格式的时间字符串
+    @para: 传进来一个时间格式 eg:@"yyyy-MM-dd HH:mm:ss"
+    @self: 时间戳
+ */
+- (NSString *)timeStampToFormateTimeWithDataFormatStr:(NSString *)formatStr;
+
 @end

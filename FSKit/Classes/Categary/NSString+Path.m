@@ -10,9 +10,6 @@
 
 @implementation NSString (Path)
 
-// AppendingPathComponent
-
-
 - (NSString *)appendingDocumentPath
 {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
