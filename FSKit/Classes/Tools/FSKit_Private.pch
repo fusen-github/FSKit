@@ -9,6 +9,18 @@
 
 #ifdef __OBJC__
 
+#ifdef DEBUG
+#define MJRefreshLog(...) NSLog(__VA_ARGS__)
+#else
+#define MJRefreshLog(...)
+#endif
+
+#ifdef DEBUG
+#define FSLog(...) NSLog(__VA_ARGS__) // 如果是debug阶段，用FSLog来替换NSLog
+#else
+#define FSLog(...) // 如果是release阶段 FSLog 代表空
+#endif
+
 // 定义16进制的颜色值得宏，返回UIColor对象
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -28,15 +40,11 @@ _Pragma("clang diagnostic pop") \
 } while (0)
 
 
-
 #define NSStringFromInt(intValue) [NSString stringWithFormat:@"%@",@(intValue)]
 
 #define kNilObject(obj) (obj == nil ? [NSNull null] : obj)
 
 #define kNilArray(obj) (obj == nil ? [NSArray array] : obj)
-
-
-
 
 #endif
 

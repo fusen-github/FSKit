@@ -53,7 +53,8 @@
  */
 - (BOOL)shouldAutorotate
 {
-    if (IS_IPAD) {
+    if (IS_IPAD)
+    {
         return YES;
     }
     else
