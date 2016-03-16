@@ -20,7 +20,12 @@
 		043285CD1C91C6C800912D17 /* NINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043285CC1C91C6C800912D17 /* NINavigationController.m */; };
 		043EC8921C9668D20019E6D5 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC8911C9668D20019E6D5 /* NSDate+Extension.m */; };
 		043EC8951C96690B0019E6D5 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043EC8941C96690B0019E6D5 /* NSDate+Helper.m */; };
-		0473DBFE1C929E7100CE5DE0 /* readme.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBF61C929E7100CE5DE0 /* readme.m */; };
+		04635D1C1C98FDC40054FDB9 /* UIView+Hud.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D1B1C98FDC40054FDB9 /* UIView+Hud.m */; };
+		04635D261C9925490054FDB9 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04635D201C9925490054FDB9 /* down@2x.png */; };
+		04635D271C9925490054FDB9 /* FSRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D221C9925490054FDB9 /* FSRefreshFooter.m */; };
+		04635D281C9925490054FDB9 /* FSRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D241C9925490054FDB9 /* FSRefreshHeader.m */; };
+		04635D291C9925490054FDB9 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 04635D251C9925490054FDB9 /* readme.md */; };
+		0473DBFE1C929E7100CE5DE0 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBF61C929E7100CE5DE0 /* readme.md */; };
 		0473DBFF1C929E7100CE5DE0 /* sdRefeshView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473DBF71C929E7100CE5DE0 /* sdRefeshView_arrow@2x.png */; };
 		0473DC001C929E7100CE5DE0 /* SDRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBF91C929E7100CE5DE0 /* SDRefreshFooterView.m */; };
 		0473DC011C929E7100CE5DE0 /* SDRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBFB1C929E7100CE5DE0 /* SDRefreshHeaderView.m */; };
@@ -75,7 +80,15 @@
 		043EC8911C9668D20019E6D5 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		043EC8931C96690B0019E6D5 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
 		043EC8941C96690B0019E6D5 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
-		0473DBF61C929E7100CE5DE0 /* readme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = readme.m; sourceTree = "<group>"; };
+		04635D1A1C98FDC40054FDB9 /* UIView+Hud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hud.h"; sourceTree = "<group>"; };
+		04635D1B1C98FDC40054FDB9 /* UIView+Hud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hud.m"; sourceTree = "<group>"; };
+		04635D201C9925490054FDB9 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		04635D211C9925490054FDB9 /* FSRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRefreshFooter.h; sourceTree = "<group>"; };
+		04635D221C9925490054FDB9 /* FSRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRefreshFooter.m; sourceTree = "<group>"; };
+		04635D231C9925490054FDB9 /* FSRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRefreshHeader.h; sourceTree = "<group>"; };
+		04635D241C9925490054FDB9 /* FSRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRefreshHeader.m; sourceTree = "<group>"; };
+		04635D251C9925490054FDB9 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		0473DBF61C929E7100CE5DE0 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		0473DBF71C929E7100CE5DE0 /* sdRefeshView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdRefeshView_arrow@2x.png"; sourceTree = "<group>"; };
 		0473DBF81C929E7100CE5DE0 /* SDRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefreshFooterView.h; sourceTree = "<group>"; };
 		0473DBF91C929E7100CE5DE0 /* SDRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshFooterView.m; sourceTree = "<group>"; };
@@ -127,6 +140,8 @@
 		0419DD8A1C7DE07300F0D8C0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				04635D1A1C98FDC40054FDB9 /* UIView+Hud.h */,
+				04635D1B1C98FDC40054FDB9 /* UIView+Hud.m */,
 				0419DD8B1C7DE07300F0D8C0 /* AKProgressView.h */,
 				0419DD8C1C7DE07300F0D8C0 /* AKProgressView.m */,
 				0419DD8D1C7DE07300F0D8C0 /* NCLineButton.h */,
@@ -166,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				043285C31C91B8C400912D17 /* FSKit_Private.pch */,
+				04635D1F1C9925490054FDB9 /* FSSimpleRefresh */,
 				0473DBF51C929E7100CE5DE0 /* FSRefresh */,
 			);
 			path = Tools;
@@ -182,10 +198,23 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
+		04635D1F1C9925490054FDB9 /* FSSimpleRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				04635D201C9925490054FDB9 /* down@2x.png */,
+				04635D211C9925490054FDB9 /* FSRefreshFooter.h */,
+				04635D221C9925490054FDB9 /* FSRefreshFooter.m */,
+				04635D231C9925490054FDB9 /* FSRefreshHeader.h */,
+				04635D241C9925490054FDB9 /* FSRefreshHeader.m */,
+				04635D251C9925490054FDB9 /* readme.md */,
+			);
+			path = FSSimpleRefresh;
+			sourceTree = "<group>";
+		};
 		0473DBF51C929E7100CE5DE0 /* FSRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				0473DBF61C929E7100CE5DE0 /* readme.m */,
+				0473DBF61C929E7100CE5DE0 /* readme.md */,
 				0473DBF71C929E7100CE5DE0 /* sdRefeshView_arrow@2x.png */,
 				0473DBF81C929E7100CE5DE0 /* SDRefreshFooterView.h */,
 				0473DBF91C929E7100CE5DE0 /* SDRefreshFooterView.m */,
@@ -386,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04635D261C9925490054FDB9 /* down@2x.png in Resources */,
 				0473DBFF1C929E7100CE5DE0 /* sdRefeshView_arrow@2x.png in Resources */,
 				0491C7F91C7DD9CB0034363D /* LaunchScreen.xib in Resources */,
 				0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */,
@@ -414,6 +444,7 @@
 				043285CD1C91C6C800912D17 /* NINavigationController.m in Sources */,
 				0419DDA21C7DE18A00F0D8C0 /* NSString+Path.m in Sources */,
 				0419DD9C1C7DE07300F0D8C0 /* UIAlertView+Additional.m in Sources */,
+				04635D281C9925490054FDB9 /* FSRefreshHeader.m in Sources */,
 				0491C7EB1C7DD9CB0034363D /* main.m in Sources */,
 				043285CA1C91C56300912D17 /* FSNavigationController.m in Sources */,
 				043EC8921C9668D20019E6D5 /* NSDate+Extension.m in Sources */,
@@ -421,14 +452,17 @@
 				043EC8951C96690B0019E6D5 /* NSDate+Helper.m in Sources */,
 				0419DD9E1C7DE07300F0D8C0 /* UIButton+Image.m in Sources */,
 				0491C81D1C7DDAD10034363D /* UITextView+Placeholder.m in Sources */,
+				04635D271C9925490054FDB9 /* FSRefreshFooter.m in Sources */,
 				0491C82F1C7DDB8E0034363D /* NSArray+Log.m in Sources */,
+				04635D291C9925490054FDB9 /* readme.md in Sources */,
 				043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */,
 				0473DC021C929E7100CE5DE0 /* SDRefreshView.m in Sources */,
 				0473DC011C929E7100CE5DE0 /* SDRefreshHeaderView.m in Sources */,
 				0491C8171C7DDA6F0034363D /* AppDelegate.m in Sources */,
+				04635D1C1C98FDC40054FDB9 /* UIView+Hud.m in Sources */,
 				0491C8301C7DDB8E0034363D /* NSDictionary+Log.m in Sources */,
 				0419DD9D1C7DE07300F0D8C0 /* UIButton+Extension.m in Sources */,
-				0473DBFE1C929E7100CE5DE0 /* readme.m in Sources */,
+				0473DBFE1C929E7100CE5DE0 /* readme.md in Sources */,
 				0491C8311C7DDB8E0034363D /* NSSet+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
