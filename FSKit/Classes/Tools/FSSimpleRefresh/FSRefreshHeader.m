@@ -38,6 +38,10 @@
 
 @property (nonatomic, assign) UIEdgeInsets originContenInset;
 
+@property (nonatomic, assign) UIEdgeInsets inset1;
+
+@property (nonatomic, assign) UIEdgeInsets inset2;
+
 //@property (nonatomic, assign) UIEdgeInsets addContentInset;
 
 @end
@@ -211,7 +215,7 @@
 
 - (void)beginRefreshWhenViewWillAppear
 {
-    self.scrollView.contentOffset = CGPointMake(0, -kRefreshHeaderHeight);
+    self.scrollView.contentOffset = CGPointMake(0, -(kRefreshHeaderHeight + self.scrollView.contentInset.top));
     
     [self beginRefresh];
 }
@@ -231,13 +235,12 @@
         
         [self.activity startAnimating];
         
-//        NSLog(@"刷新前：%@",NSStringFromUIEdgeInsets(self.scrollView.contentInset));
         
         self.originContenInset = self.scrollView.contentInset;
         
         self.scrollView.contentInset = UIEdgeInsetsMake(self.originContenInset.top + kRefreshHeaderHeight, self.originContenInset.left, self.originContenInset.bottom, self.originContenInset.right);
         
-//        NSLog(@"正在刷新：%@",NSStringFromUIEdgeInsets(self.scrollView.contentInset));
+        self.inset1 = self.scrollView.contentInset;
         
         if (self.refreshBlock)
         {
@@ -253,7 +256,15 @@
     {
         self.isRefreshing = NO;
         
-//        NSLog(@"结束刷新：%@",NSStringFromUIEdgeInsets(self.scrollView.contentInset));
+        self.inset2 = self.scrollView.contentInset;
+        
+        CGFloat difTop = self.inset2.top - self.inset1.top;
+        
+        UIEdgeInsets inset = self.originContenInset;
+        
+        inset.top += difTop;
+        
+        self.originContenInset = inset;
         
         [UIView animateWithDuration:0.3 animations:^{
             
@@ -271,7 +282,6 @@
             
             self.imageV.transform = CGAffineTransformIdentity;
         }];
-
     }
 }
 
