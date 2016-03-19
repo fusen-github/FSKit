@@ -75,6 +75,8 @@
 		0491C82F1C7DDB8E0034363D /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82A1C7DDB8E0034363D /* NSArray+Log.m */; };
 		0491C8301C7DDB8E0034363D /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82C1C7DDB8E0034363D /* NSDictionary+Log.m */; };
 		0491C8311C7DDB8E0034363D /* NSSet+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82E1C7DDB8E0034363D /* NSSet+Log.m */; };
+		04E4D1231C9D71E400A0B41D /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4D1221C9D71E400A0B41D /* UIButton+Extension.m */; };
+		04E4D1261C9D720200A0B41D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4D1251C9D720200A0B41D /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +230,10 @@
 		0491C82D1C7DDB8E0034363D /* NSSet+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Log.h"; sourceTree = "<group>"; };
 		0491C82E1C7DDB8E0034363D /* NSSet+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Log.m"; sourceTree = "<group>"; };
 		0491C8321C7DDC000034363D /* Introduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Introduct.h; sourceTree = "<group>"; };
+		04E4D1211C9D71E400A0B41D /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		04E4D1221C9D71E400A0B41D /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		04E4D1241C9D720200A0B41D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		04E4D1251C9D720200A0B41D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -461,6 +467,8 @@
 			children = (
 				04635D981C9954730054FDB9 /* UIButton+Ext.h */,
 				04635D991C9954730054FDB9 /* UIButton+Ext.m */,
+				04E4D1211C9D71E400A0B41D /* UIButton+Extension.h */,
+				04E4D1221C9D71E400A0B41D /* UIButton+Extension.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -492,6 +500,8 @@
 				04635DA41C9954730054FDB9 /* UIImage+Image.m */,
 				04635DA51C9954730054FDB9 /* UIImage+Utils.h */,
 				04635DA61C9954730054FDB9 /* UIImage+Utils.m */,
+				04E4D1241C9D720200A0B41D /* UIImage+Extension.h */,
+				04E4D1251C9D720200A0B41D /* UIImage+Extension.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -920,6 +930,7 @@
 				04635DF11C9954730054FDB9 /* HP_NSDateUtils.m in Sources */,
 				04635DE81C9954730054FDB9 /* MD5Utils.m in Sources */,
 				04635DED1C9954730054FDB9 /* UIView+LY.m in Sources */,
+				04E4D1231C9D71E400A0B41D /* UIButton+Extension.m in Sources */,
 				04635DDC1C9954730054FDB9 /* Foundation+Log.m in Sources */,
 				0473DC021C929E7100CE5DE0 /* SDRefreshView.m in Sources */,
 				0473DC011C929E7100CE5DE0 /* SDRefreshHeaderView.m in Sources */,
@@ -930,6 +941,7 @@
 				04635DE31C9954730054FDB9 /* NSString+LY.m in Sources */,
 				0491C8301C7DDB8E0034363D /* NSDictionary+Log.m in Sources */,
 				04635DE11C9954730054FDB9 /* UIView+LYExt.m in Sources */,
+				04E4D1261C9D720200A0B41D /* UIImage+Extension.m in Sources */,
 				0419DD9D1C7DE07300F0D8C0 /* UIButton+Extension.m in Sources */,
 				0473DBFE1C929E7100CE5DE0 /* readme.md in Sources */,
 				0491C8311C7DDB8E0034363D /* NSSet+Log.m in Sources */,

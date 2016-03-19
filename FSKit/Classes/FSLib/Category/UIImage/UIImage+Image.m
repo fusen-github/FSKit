@@ -9,6 +9,22 @@
 #import "UIImage+Image.h"
 
 @implementation UIImage (Image)
+
+
+-(UIImage *)imageWithColor:(UIColor *)color
+{
+    CGRect rect=CGRectMake(0,0, 1, 1);
+    
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
+}
+
+
 /**
  *  返回一张可以随意拉伸不变形的图片
  *

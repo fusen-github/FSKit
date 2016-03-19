@@ -22,12 +22,18 @@ typedef enum MYImagePlace{//水印的位置
     MYImagePlaceWithRightBottom = 3
 }MYImagePlace;
 @interface UIImage (Image)
+
+/// 根据颜色值返回一张图片 默认size = @{1,1} 需要拉伸
+- (UIImage *)imageWithColor:(UIColor *)color;
+
+
 /**
  *  返回一张可以随意拉伸不变形的图片
  *
  *  @param name 图片名字
  */
 + (instancetype)resizableImage:(NSString *)name;
+
 /**
  *  打水印（四个方位）
  *
