@@ -77,6 +77,7 @@
 		0491C8311C7DDB8E0034363D /* NSSet+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C82E1C7DDB8E0034363D /* NSSet+Log.m */; };
 		04C24A4F1CA26B56004D7760 /* NIProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C24A4E1CA26B56004D7760 /* NIProgressBar.m */; };
 		04C24ADF1CA3EF52004D7760 /* CAShapeLayer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C24ADE1CA3EF52004D7760 /* CAShapeLayer+Extension.m */; };
+		04C24B731CA54258004D7760 /* FSSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C24B721CA54258004D7760 /* FSSegmentView.m */; };
 		04E4D1231C9D71E400A0B41D /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4D1221C9D71E400A0B41D /* UIButton+Extension.m */; };
 		04E4D1261C9D720200A0B41D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4D1251C9D720200A0B41D /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
@@ -236,6 +237,8 @@
 		04C24A4E1CA26B56004D7760 /* NIProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIProgressBar.m; sourceTree = "<group>"; };
 		04C24ADD1CA3EF52004D7760 /* CAShapeLayer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Extension.h"; sourceTree = "<group>"; };
 		04C24ADE1CA3EF52004D7760 /* CAShapeLayer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Extension.m"; sourceTree = "<group>"; };
+		04C24B711CA54258004D7760 /* FSSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSSegmentView.h; sourceTree = "<group>"; };
+		04C24B721CA54258004D7760 /* FSSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSSegmentView.m; sourceTree = "<group>"; };
 		04E4D1211C9D71E400A0B41D /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		04E4D1221C9D71E400A0B41D /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		04E4D1241C9D720200A0B41D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
@@ -306,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				043285C31C91B8C400912D17 /* FSKit_Private.pch */,
+				04C24B701CA54258004D7760 /* FSSegment(block) */,
 				04C24A4C1CA26B56004D7760 /* FSProgressBar */,
 				04635D1F1C9925490054FDB9 /* FSSimpleRefresh */,
 				0473DBF51C929E7100CE5DE0 /* FSRefresh */,
@@ -798,6 +802,15 @@
 			path = FSProgressBar;
 			sourceTree = "<group>";
 		};
+		04C24B701CA54258004D7760 /* FSSegment(block) */ = {
+			isa = PBXGroup;
+			children = (
+				04C24B711CA54258004D7760 /* FSSegmentView.h */,
+				04C24B721CA54258004D7760 /* FSSegmentView.m */,
+			);
+			path = "FSSegment(block)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -916,6 +929,7 @@
 				043285CD1C91C6C800912D17 /* NINavigationController.m in Sources */,
 				04635DEA1C9954730054FDB9 /* UIImage+Image.m in Sources */,
 				04635DEB1C9954730054FDB9 /* UIImage+Utils.m in Sources */,
+				04C24B731CA54258004D7760 /* FSSegmentView.m in Sources */,
 				0419DDA21C7DE18A00F0D8C0 /* NSString+Path.m in Sources */,
 				04635DF21C9954730054FDB9 /* HP_NetWorkUtils.m in Sources */,
 				04635DDA1C9954730054FDB9 /* NSString+DES.m in Sources */,
