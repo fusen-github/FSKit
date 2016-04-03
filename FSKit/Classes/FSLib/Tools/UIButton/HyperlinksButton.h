@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HyperlinksButton : UIButton
+
 @property (strong, nonatomic) UIColor *lineColor; /**< 下划线颜色 */
+
 @end

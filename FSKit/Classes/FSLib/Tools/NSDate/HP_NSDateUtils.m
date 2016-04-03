@@ -57,7 +57,9 @@
 + (NSString *)getCurrentTime {
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc ] init];
+    
     [formatter setDateFormat:@"MMddhhmmss"];
+    
     NSString *date = [formatter stringFromDate:[NSDate date]];
 
     return date;

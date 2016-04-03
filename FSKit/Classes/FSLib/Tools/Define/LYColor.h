@@ -15,6 +15,7 @@
                                                alpha:(a) * 1.0]
 //随机数
 #define LYRandomNumber(n) arc4random_uniform(n)
+
 //随机颜色
 #define LYRandomColor MYRGBColor(MYRandomNumber(256), \
                                  MYRandomNumber(256), \

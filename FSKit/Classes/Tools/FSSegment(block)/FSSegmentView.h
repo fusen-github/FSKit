@@ -11,8 +11,6 @@ typedef void(^FSClickBlock)(NSInteger index);
 
 @interface FSSegmentView : UIView
 
-
-
 - (instancetype)initWithFrame:(CGRect)frame
                       titles:(NSArray *)titleArray
                   clickBlick:(FSClickBlock)block;

@@ -60,18 +60,9 @@
     
     if (self)
     {
-        _btn_w = 0.0;
+        _btn_w = ScreenWidth / MIN(MAX_TitleNumInWindow, titleArray.count);
         
-        if (titleArray.count < MAX_TitleNumInWindow + 1)
-        {
-            _btn_w = ScreenWidth / titleArray.count;
-            
-        }
-        else
-        {
-            _btn_w= ScreenWidth / MAX_TitleNumInWindow;
-        }
-        _titles=titleArray;
+        _titles = titleArray;
         
         _defaultIndex = 0;
         
@@ -85,21 +76,21 @@
         
         _bgScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, self.frame.size.height)];
         
-        _bgScrollView.backgroundColor=[UIColor whiteColor];
+        _bgScrollView.backgroundColor = [UIColor whiteColor];
         
-        _bgScrollView.showsHorizontalScrollIndicator=NO;
+        _bgScrollView.showsHorizontalScrollIndicator = NO;
         
         _bgScrollView.contentSize=CGSizeMake(_btn_w*titleArray.count, self.frame.size.height);
         
         [self addSubview:_bgScrollView];
         
-        UIView *line=[[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height-1, _btn_w*titleArray.count, 1)];
+        UIView *line= [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height-1, _btn_w*titleArray.count, 1)];
         
-        line.backgroundColor=[UIColor lightGrayColor];
+        line.backgroundColor = [UIColor lightGrayColor];
         
         [_bgScrollView addSubview:line];
         
-        _selectLine=[[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height-2, _btn_w, 2)];
+        _selectLine = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height-2, _btn_w, 2)];
         
         _selectLine.backgroundColor=_titleSelectColor;
         

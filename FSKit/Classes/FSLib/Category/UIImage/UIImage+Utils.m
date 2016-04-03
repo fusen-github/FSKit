@@ -26,7 +26,8 @@
 
 
 // 等比例缩放
-- (instancetype)scaleToSize:(CGSize)size {
+- (instancetype)scaleToSize:(CGSize)size
+{
     CGFloat width = CGImageGetWidth(self.CGImage);
     CGFloat height = CGImageGetHeight(self.CGImage);
     

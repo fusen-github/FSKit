@@ -27,17 +27,22 @@
 - (void)drawRect:(CGRect)rect
 {
     CGRect textRect = self.titleLabel.frame;
+    
     CGContextRef contextRef = UIGraphicsGetCurrentContext();
     
     CGFloat descender = self.titleLabel.font.descender;
-    if([_lineColor isKindOfClass:[UIColor class]]){
+    
+    if([_lineColor isKindOfClass:[UIColor class]])
+    {
         CGContextSetStrokeColorWithColor(contextRef, _lineColor.CGColor);
     }
     
     CGContextMoveToPoint(contextRef, textRect.origin.x, textRect.origin.y + textRect.size.height + descender + 3.0);
+    
     CGContextAddLineToPoint(contextRef, textRect.origin.x + textRect.size.width, textRect.origin.y + textRect.size.height + descender + 3.0);
     
     CGContextClosePath(contextRef);
+    
     CGContextDrawPath(contextRef, kCGPathStroke);
 }
 

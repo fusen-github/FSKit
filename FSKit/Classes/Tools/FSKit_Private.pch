@@ -30,7 +30,6 @@
 
 #define kRootViewController [UIApplication sharedApplication].keyWindow.rootViewController
 
-
 #define SuppressPerformSelectorLeakWarning(Stuff) \
 do { \
 _Pragma("clang diagnostic push") \

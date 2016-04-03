@@ -13,9 +13,4 @@
 /// 根据颜色值返回一张图片 默认size = @{1,1} 需要拉伸
 + (UIImage *)imageWithColor:(UIColor *)color;
 
-
-
-
-
-
 @end

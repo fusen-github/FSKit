@@ -24,7 +24,6 @@
 		04635D261C9925490054FDB9 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04635D201C9925490054FDB9 /* down@2x.png */; };
 		04635D271C9925490054FDB9 /* FSRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D221C9925490054FDB9 /* FSRefreshFooter.m */; };
 		04635D281C9925490054FDB9 /* FSRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D241C9925490054FDB9 /* FSRefreshHeader.m */; };
-		04635D291C9925490054FDB9 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 04635D251C9925490054FDB9 /* readme.md */; };
 		04635DD71C9954730054FDB9 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D711C9954730054FDB9 /* NSData+AES.m */; };
 		04635DD81C9954730054FDB9 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D741C9954730054FDB9 /* NSString+Base64.m */; };
 		04635DD91C9954730054FDB9 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04635D771C9954730054FDB9 /* GTMBase64.m */; };
@@ -65,6 +64,7 @@
 		0473DC001C929E7100CE5DE0 /* SDRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBF91C929E7100CE5DE0 /* SDRefreshFooterView.m */; };
 		0473DC011C929E7100CE5DE0 /* SDRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBFB1C929E7100CE5DE0 /* SDRefreshHeaderView.m */; };
 		0473DC021C929E7100CE5DE0 /* SDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473DBFD1C929E7100CE5DE0 /* SDRefreshView.m */; };
+		047941F41CB1079300EDCC7B /* FSPayAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047941F31CB1079300EDCC7B /* FSPayAlertView.m */; };
 		0491C7EB1C7DD9CB0034363D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491C7EA1C7DD9CB0034363D /* main.m */; };
 		0491C7F61C7DD9CB0034363D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F51C7DD9CB0034363D /* Images.xcassets */; };
 		0491C7F91C7DD9CB0034363D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0491C7F71C7DD9CB0034363D /* LaunchScreen.xib */; };
@@ -127,7 +127,6 @@
 		04635D221C9925490054FDB9 /* FSRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRefreshFooter.m; sourceTree = "<group>"; };
 		04635D231C9925490054FDB9 /* FSRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSRefreshHeader.h; sourceTree = "<group>"; };
 		04635D241C9925490054FDB9 /* FSRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSRefreshHeader.m; sourceTree = "<group>"; };
-		04635D251C9925490054FDB9 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		04635D701C9954730054FDB9 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		04635D711C9954730054FDB9 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		04635D731C9954730054FDB9 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
@@ -212,6 +211,8 @@
 		0473DBFB1C929E7100CE5DE0 /* SDRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshHeaderView.m; sourceTree = "<group>"; };
 		0473DBFC1C929E7100CE5DE0 /* SDRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefreshView.h; sourceTree = "<group>"; };
 		0473DBFD1C929E7100CE5DE0 /* SDRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshView.m; sourceTree = "<group>"; };
+		047941F21CB1079300EDCC7B /* FSPayAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPayAlertView.h; sourceTree = "<group>"; };
+		047941F31CB1079300EDCC7B /* FSPayAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPayAlertView.m; sourceTree = "<group>"; };
 		0491C7E51C7DD9CB0034363D /* FSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0491C7E91C7DD9CB0034363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0491C7EA1C7DD9CB0034363D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -309,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				043285C31C91B8C400912D17 /* FSKit_Private.pch */,
+				047941F11CB1079300EDCC7B /* FSWeiXinPayAlertView */,
 				04C24B701CA54258004D7760 /* FSSegment(block) */,
 				04C24A4C1CA26B56004D7760 /* FSProgressBar */,
 				04635D1F1C9925490054FDB9 /* FSSimpleRefresh */,
@@ -336,7 +338,6 @@
 				04635D221C9925490054FDB9 /* FSRefreshFooter.m */,
 				04635D231C9925490054FDB9 /* FSRefreshHeader.h */,
 				04635D241C9925490054FDB9 /* FSRefreshHeader.m */,
-				04635D251C9925490054FDB9 /* readme.md */,
 			);
 			path = FSSimpleRefresh;
 			sourceTree = "<group>";
@@ -683,6 +684,15 @@
 			path = FSRefresh;
 			sourceTree = "<group>";
 		};
+		047941F11CB1079300EDCC7B /* FSWeiXinPayAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				047941F21CB1079300EDCC7B /* FSPayAlertView.h */,
+				047941F31CB1079300EDCC7B /* FSPayAlertView.m */,
+			);
+			path = FSWeiXinPayAlertView;
+			sourceTree = "<group>";
+		};
 		0491C7DC1C7DD9CB0034363D = {
 			isa = PBXGroup;
 			children = (
@@ -957,8 +967,8 @@
 				04635DF41C9954730054FDB9 /* HP_PlistUtils.m in Sources */,
 				04635DF81C9954730054FDB9 /* HyperlinksButton.m in Sources */,
 				04635DE41C9954730054FDB9 /* NSString+LYJS.m in Sources */,
+				047941F41CB1079300EDCC7B /* FSPayAlertView.m in Sources */,
 				0491C82F1C7DDB8E0034363D /* NSArray+Log.m in Sources */,
-				04635D291C9925490054FDB9 /* readme.md in Sources */,
 				043285C61C91BE5500912D17 /* NSString+Extension.m in Sources */,
 				04635DF11C9954730054FDB9 /* HP_NSDateUtils.m in Sources */,
 				04635DE81C9954730054FDB9 /* MD5Utils.m in Sources */,
